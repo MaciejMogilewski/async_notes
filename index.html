@@ -16,16 +16,32 @@
             transition: all 2s;
         }
     </style>
-<!--    <script src="./src/js/app.js" async defer type="module"></script>-->
+<!--    <script src="./src/js/app.js" async defer/ type="module"></script>-->
 <!--    <script src="./src/js/promise.js" async defer type="module"></script>-->
 <!--    <script src="./src/js/promise_deep.js" async defer type="module"></script>-->
 <!--    <script src="./src/js/generators.js" async defer type="module"></script>-->
-    <script src="./src/js/async_await.js" async defer type="module"></script>
+<!--    <script src="./src/js/async_await.js" async defer type="module"></script>-->
+    <script src="./src/js/currency_calculator.js" async defer type="module"></script>
     <title>Async notes</title>
 </head>
 <body>
 
-<div class="square"></div>
+<form>
+    <label for="currencyInput">Currency</label>
+    <select id="currencyInput">
+        <option value="0">---</option>
+    </select>
+    <label for="currencyQuantity">Quantity</label>
+    <input type="number" min="0" id="currencyQuantity">
+    <label for="currencyOutput">Output</label>
+    <select name="" id="currencyOutput">
+        <option value="0">---</option>
+    </select>
+</form>
+
+<div id="results"></div>
+
+<!--<div class="square"></div>-->
 
 </body>
 </html>

@@ -11,4 +11,6 @@ async function getData() {
     console.log(response);
 }
 
-getData();
+// getData();
+
+
